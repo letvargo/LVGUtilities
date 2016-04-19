@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "LVGUtilities"
   s.version      = "0.0.1"
   s.summary      = "Basic Swift utility functions."
-  s.homepage     = "/Users/doofnugget/Documents/projects/Podspecs/LVGUtilities/index.html"
+  s.homepage     = 'https://github.com/letvargo/'
   s.description  = <<-DESC
 A group of basic Swift utility functions for performing the following tasks:
 
