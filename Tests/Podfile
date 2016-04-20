@@ -1,0 +1,13 @@
+source '/Users/doofnugget/Cocoapods/Specs.git'
+
+use_frameworks!
+
+target 'Tests-iOS' do
+    platform :ios, '8.0'
+    pod 'LVGUtilities'
+end
+
+target 'Tests-OSX' do
+    platform :osx, '10.10'
+    pod 'LVGUtilities'
+end
