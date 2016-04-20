@@ -30,6 +30,7 @@ class CBridgingTests: XCTestCase {
     func testEquality() {
         let objBridged = bridgeRetained(obj)
         let objUnbridged: TestClass = bridgeTransfer(objBridged)
+        
         XCTAssert(obj === objUnbridged)
     }
 }
