@@ -1,6 +1,0 @@
-framework module LVGUtilities {
-  umbrella header "Pods-Tests-iOS-LVGUtilities-umbrella.h"
-
-  export *
-  module * { export * }
-}

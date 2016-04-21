@@ -9,7 +9,7 @@
 import XCTest
 import LVGUtilities
 
-class CBridgingTests: XCTestCase {
+class PodTestsTests: XCTestCase {
 
     class TestClass {
         var value = 0
@@ -30,7 +30,6 @@ class CBridgingTests: XCTestCase {
     func testEquality() {
         let objBridged = bridgeRetained(obj)
         let objUnbridged: TestClass = bridgeTransfer(objBridged)
-        
         XCTAssert(obj === objUnbridged)
     }
 }
