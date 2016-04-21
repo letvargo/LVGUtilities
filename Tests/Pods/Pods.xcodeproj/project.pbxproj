@@ -1,1904 +1,828 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>007588BD009BC1EFC24E7896791910F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>026A2D7D2B74EB6C8B762B86A8E2FE5E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EF369A012D3B4574F1EE4C5C5B03ADA9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>LVGUtilities</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>037732682B7A848ECF7A75C7A66B3A3F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>307E4D6FD5C23AFEE36D4BF5E5144A6D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>03A812924E7889AC17DF08FD168CDFA5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>817F4FA254CF7E5B1682DBB8010B0BD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E3B7D489C60E6D34DEC9FCE0C6EA4ED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DEC95767EED309675F21FA4AF8883FB4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0E7FE97C3698A3B8FC62B4E543EF09AE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6391D6B4443FB91FE2E4AD36DC328A07</string>
-				<string>E7576B4A056645768D5561CB7D0631F3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0FB88C90E7F02892F0AC984E3DFD1242</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D2C57DF947CB63AAAE0F0FF86286093</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>103578F5CE93F0B43FB442D0A50A83C1</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>0E7FE97C3698A3B8FC62B4E543EF09AE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B74EEBA3ED84EF606B2898336006A303</string>
-				<string>645F7F22B86426F980B0FECE941402E5</string>
-				<string>CCFBC38DE047E0D687B0D154AB23DAC1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EED4A1B6B99EFA5E71BF52D9BD3EBF23</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-OSX</string>
-			<key>productName</key>
-			<string>Pods-Tests-OSX</string>
-			<key>productReference</key>
-			<string>293CA6831355A554D596480B062170BD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>16A1BF9F980F1725E05A0CA9813C2B77</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9E532AC59D1F08B9B43564CAFF130383</string>
-				<string>026A2D7D2B74EB6C8B762B86A8E2FE5E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1C6346D357F254F695DB08615FCC4CBA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FA662325D92C2F1373F900474CDAE2D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>037732682B7A848ECF7A75C7A66B3A3F</string>
-				<string>AC1EC7DFA04E4C73C5EDC68537FF4FDE</string>
-				<string>E3A757E8A4CB4DC1D023C3001E060094</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3E668C4EC35C4A75E60CBB5584983DBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS</string>
-			<key>productName</key>
-			<string>Pods-Tests-iOS</string>
-			<key>productReference</key>
-			<string>93878E5D375B5871AD2043F3644F0CC0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>1C865D1AD8231B38DB610381EE9654D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22720651AA11A6FEF9FEA7674B680C44</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7D16FCFEE997782CCCA2ADF55F5A385</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2676ED3480093FE7325DE629FD4E9EF8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2EE5C2C732DD5E054BF6AD39BA3FDEFA</string>
-				<string>5DFA92E5A92978587710CC3D646B7A7A</string>
-				<string>7B23A06D95F4A8277BB3F8448D42D0F2</string>
-				<string>007588BD009BC1EFC24E7896791910F2</string>
-				<string>E5F55CE2BB5B166A8E8B432CA2A9AC1D</string>
-				<string>96F53BF376CA698C667A5FDAA7F26D42</string>
-				<string>F7B7BDD0DDA8EDAC68581C3EB9B3FE94</string>
-				<string>269E21B172C0EFD6EF8C86AC68D6D985</string>
-				<string>ED38FE030F95AE52F84125BAAD412D4A</string>
-				<string>91250AB9EB606F41CC327C6D2F4901A9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests-iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>269E21B172C0EFD6EF8C86AC68D6D985</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>293CA6831355A554D596480B062170BD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Tests_OSX.framework</string>
-			<key>path</key>
-			<string>Pods_Tests_OSX.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2C18BB4F3B349E83A2B507010B3EBAA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C7B150ECD7B67F31080E7A07694DB02</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2676ED3480093FE7325DE629FD4E9EF8</string>
-				<string>EC0D33F023C409D74E719367FF9E5914</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D2C57DF947CB63AAAE0F0FF86286093</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8C89ADA2A74E7D81099169B681513743</string>
-				<string>B1CCF437EFDBD8AA09C1FC7523973736</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2E2BABE29944209EDDCBA013A63272C9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>91250AB9EB606F41CC327C6D2F4901A9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests_iOS</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2EE5C2C732DD5E054BF6AD39BA3FDEFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F426C20791C2C776D6B81F15C1EA8A5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>307E4D6FD5C23AFEE36D4BF5E5144A6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E5F55CE2BB5B166A8E8B432CA2A9AC1D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3325B9D8D19FCAE7287AF549848248D7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F5B0A0E39D1559AAC186BE78497ED7C6</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-iOS-LVGUtilities</string>
-		</dict>
-		<key>3AEF7D761E8EA8419BB4A7000AB770CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7AD470ACF4E5545C3E4A621BD6E0A529</string>
-				<string>9304B30CB87FDB77B6CEE9FB6B800855</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E668C4EC35C4A75E60CBB5584983DBC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities</string>
-			<key>target</key>
-			<string>F5B0A0E39D1559AAC186BE78497ED7C6</string>
-			<key>targetProxy</key>
-			<string>3325B9D8D19FCAE7287AF549848248D7</string>
-		</dict>
-		<key>42A377A19EB8F5C97ED07A6C184FA91E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE25DD04263CA735DBC0065D686C708D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4845AC1A513F11F292B19B3ACD414EC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C712E30D5F28446F2B8EED0F600F2541</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>491CAC0DE8C007999B130022CCA12E60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-LVGUtilities.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E6D0B8A5A014FFB43A7E3A34260D95D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BA57BABB6E594DFA267F1040C011FB66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>507D683F7AA3A4757B34EE2724BB5B22</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5CADEB8E150B22C34F1FFD7701F90F6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>584C615B819E47EAC29EAE176B8405F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-LVGUtilities-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A5A8007446446FE477B968CDF7DAC47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CADEB8E150B22C34F1FFD7701F90F6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE25DD04263CA735DBC0065D686C708D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DFA92E5A92978587710CC3D646B7A7A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6391D6B4443FB91FE2E4AD36DC328A07</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>97AEE3999971DAE0DF97328536BA141E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests_OSX</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>645F7F22B86426F980B0FECE941402E5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>42A377A19EB8F5C97ED07A6C184FA91E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>665BBC2F9C6BC1BCF38B7F97194F25D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>269E21B172C0EFD6EF8C86AC68D6D985</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>672C53B3B6E7A2F4E5A73AA7EAD0C339</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-LVGUtilities.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6883FEF1534AEE8958D2C7668B3151CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CD18BEBCAFB8459DBEDC854BA709CB64</string>
-				<string>22720651AA11A6FEF9FEA7674B680C44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6F0C7D008E599726177FE5F03A1B0195</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LVGUtilities.framework</string>
-			<key>path</key>
-			<string>LVGUtilities.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7235CB599DB08F48328873C1BB54DD62</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>80B26609CB916FBE838FDAD613C3CC72</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-OSX-LVGUtilities</string>
-		</dict>
-		<key>760456DEB381CFE0A4E14590D741FD06</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>780BAE9ADEBB50AA200A9FB80D3307A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91B8448F86C5632625A48955FB24712A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>781F9497F7DBB216572A5BE658385044</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities.modulemap</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7983957732EADE19C49B5FFF356F8581</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AAD56B1B5D4F7DE95555AF59DAFCF6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AD470ACF4E5545C3E4A621BD6E0A529</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F426C20791C2C776D6B81F15C1EA8A5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B23A06D95F4A8277BB3F8448D42D0F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BF9BAB4638918FEB8E7A58DAB566FC2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ED38FE030F95AE52F84125BAAD412D4A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests_iOS</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>3AEF7D761E8EA8419BB4A7000AB770CB</string>
-				<string>8C134D957CDEB0480CF79FAA4F870F24</string>
-				<string>C258BF562E47B6EE83491600BFDF5C63</string>
-				<string>2C7B150ECD7B67F31080E7A07694DB02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DFB484E4398D09F4A1765FD302C9D68</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>806FC1B2A644A19AC91796C2CB8AE365</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-LVGUtilities-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80B26609CB916FBE838FDAD613C3CC72</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A1562B8C5C9C661E036987DA8D94171B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6883FEF1534AEE8958D2C7668B3151CD</string>
-				<string>507D683F7AA3A4757B34EE2724BB5B22</string>
-				<string>0E3B7D489C60E6D34DEC9FCE0C6EA4ED</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-OSX-LVGUtilities</string>
-			<key>productName</key>
-			<string>Pods-Tests-OSX-LVGUtilities</string>
-			<key>productReference</key>
-			<string>6F0C7D008E599726177FE5F03A1B0195</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>817F4FA254CF7E5B1682DBB8010B0BD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8F116F9D36AF1C005A5349E5FAB4DD7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>86939A5282E384A08B0ED2A845A0875D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E5ACEDF5185F68C47CF39B4A6CEA5CED</string>
-				<string>0FB88C90E7F02892F0AC984E3DFD1242</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8C134D957CDEB0480CF79FAA4F870F24</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8F6E23F89BEE601D64E4B8F81191441C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C89ADA2A74E7D81099169B681513743</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8F6E23F89BEE601D64E4B8F81191441C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A702D10473AE9A3C082609ECD0DF88</string>
-				<string>E7768B34DDAAC616B189C066E7737626</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LVGUtilities</string>
-			<key>path</key>
-			<string>LVGUtilities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FA662325D92C2F1373F900474CDAE2D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7BF9BAB4638918FEB8E7A58DAB566FC2</string>
-				<string>2E2BABE29944209EDDCBA013A63272C9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>91250AB9EB606F41CC327C6D2F4901A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91B8448F86C5632625A48955FB24712A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9304B30CB87FDB77B6CEE9FB6B800855</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DE25DD04263CA735DBC0065D686C708D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>OS X</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93878E5D375B5871AD2043F3644F0CC0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Tests_iOS.framework</string>
-			<key>path</key>
-			<string>Pods_Tests_iOS.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>93A702D10473AE9A3C082609ECD0DF88</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>CBridgingFunctions.swift</string>
-			<key>path</key>
-			<string>Source/CBridgingFunctions.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96F53BF376CA698C667A5FDAA7F26D42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97AEE3999971DAE0DF97328536BA141E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E532AC59D1F08B9B43564CAFF130383</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EF369A012D3B4574F1EE4C5C5B03ADA9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LVGUtilities</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A1562B8C5C9C661E036987DA8D94171B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F9F7AD3A3D4478C3D102134A44500300</string>
-				<string>FA8EC5F600E56D8C2B1285AC6B4A382B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A1FE9259797BAE51281884E83F14FECF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC1EC7DFA04E4C73C5EDC68537FF4FDE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF4C49D286F9C3BDB3EDA130EDACC366</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B1CCF437EFDBD8AA09C1FC7523973736</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B74EEBA3ED84EF606B2898336006A303</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4845AC1A513F11F292B19B3ACD414EC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BA57BABB6E594DFA267F1040C011FB66</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F426C20791C2C776D6B81F15C1EA8A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BAB349ABC10F551CDA36854CE18D025C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF4C49D286F9C3BDB3EDA130EDACC366</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F426C20791C2C776D6B81F15C1EA8A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0D76AAE6EB1F0938937A370AD0B82EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>Info.plist</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C258BF562E47B6EE83491600BFDF5C63</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F0C7D008E599726177FE5F03A1B0195</string>
-				<string>6F0C7D008E599726177FE5F03A1B0195</string>
-				<string>93878E5D375B5871AD2043F3644F0CC0</string>
-				<string>293CA6831355A554D596480B062170BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C712E30D5F28446F2B8EED0F600F2541</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCFBC38DE047E0D687B0D154AB23DAC1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>780BAE9ADEBB50AA200A9FB80D3307A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CD18BEBCAFB8459DBEDC854BA709CB64</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93A702D10473AE9A3C082609ECD0DF88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>C258BF562E47B6EE83491600BFDF5C63</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>1C6346D357F254F695DB08615FCC4CBA</string>
-				<string>F5B0A0E39D1559AAC186BE78497ED7C6</string>
-				<string>103578F5CE93F0B43FB442D0A50A83C1</string>
-				<string>80B26609CB916FBE838FDAD613C3CC72</string>
-			</array>
-		</dict>
-		<key>DE25DD04263CA735DBC0065D686C708D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Cocoa.framework</string>
-			<key>path</key>
-			<string>Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>DEC95767EED309675F21FA4AF8883FB4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>584C615B819E47EAC29EAE176B8405F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E3A757E8A4CB4DC1D023C3001E060094</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>665BBC2F9C6BC1BCF38B7F97194F25D3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E5ACEDF5185F68C47CF39B4A6CEA5CED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93A702D10473AE9A3C082609ECD0DF88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E5F55CE2BB5B166A8E8B432CA2A9AC1D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7576B4A056645768D5561CB7D0631F3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7DFB484E4398D09F4A1765FD302C9D68</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_Tests_OSX</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E7768B34DDAAC616B189C066E7737626</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C0D76AAE6EB1F0938937A370AD0B82EA</string>
-				<string>7983957732EADE19C49B5FFF356F8581</string>
-				<string>781F9497F7DBB216572A5BE658385044</string>
-				<string>EF369A012D3B4574F1EE4C5C5B03ADA9</string>
-				<string>2D2C57DF947CB63AAAE0F0FF86286093</string>
-				<string>BAB349ABC10F551CDA36854CE18D025C</string>
-				<string>F8F116F9D36AF1C005A5349E5FAB4DD7</string>
-				<string>491CAC0DE8C007999B130022CCA12E60</string>
-				<string>672C53B3B6E7A2F4E5A73AA7EAD0C339</string>
-				<string>E7D16FCFEE997782CCCA2ADF55F5A385</string>
-				<string>806FC1B2A644A19AC91796C2CB8AE365</string>
-				<string>584C615B819E47EAC29EAE176B8405F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Tests-OSX-LVGUtilities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7D16FCFEE997782CCCA2ADF55F5A385</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-OSX-LVGUtilities-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC0D33F023C409D74E719367FF9E5914</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7AAD56B1B5D4F7DE95555AF59DAFCF6B</string>
-				<string>A1FE9259797BAE51281884E83F14FECF</string>
-				<string>5A5A8007446446FE477B968CDF7DAC47</string>
-				<string>2C18BB4F3B349E83A2B507010B3EBAA0</string>
-				<string>C712E30D5F28446F2B8EED0F600F2541</string>
-				<string>1C865D1AD8231B38DB610381EE9654D9</string>
-				<string>760456DEB381CFE0A4E14590D741FD06</string>
-				<string>91B8448F86C5632625A48955FB24712A</string>
-				<string>97AEE3999971DAE0DF97328536BA141E</string>
-				<string>7DFB484E4398D09F4A1765FD302C9D68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests-OSX</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests-OSX</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED38FE030F95AE52F84125BAAD412D4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EED4A1B6B99EFA5E71BF52D9BD3EBF23</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-OSX-LVGUtilities</string>
-			<key>target</key>
-			<string>80B26609CB916FBE838FDAD613C3CC72</string>
-			<key>targetProxy</key>
-			<string>7235CB599DB08F48328873C1BB54DD62</string>
-		</dict>
-		<key>EF369A012D3B4574F1EE4C5C5B03ADA9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5B0A0E39D1559AAC186BE78497ED7C6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>16A1BF9F980F1725E05A0CA9813C2B77</string>
-			<key>buildPhases</key>
-			<array>
-				<string>86939A5282E384A08B0ED2A845A0875D</string>
-				<string>4E6D0B8A5A014FFB43A7E3A34260D95D</string>
-				<string>03A812924E7889AC17DF08FD168CDFA5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities</string>
-			<key>productName</key>
-			<string>Pods-Tests-iOS-LVGUtilities</string>
-			<key>productReference</key>
-			<string>6F0C7D008E599726177FE5F03A1B0195</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F7B7BDD0DDA8EDAC68581C3EB9B3FE94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-iOS-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8F116F9D36AF1C005A5349E5FAB4DD7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-iOS-LVGUtilities-umbrella.h</string>
-			<key>path</key>
-			<string>../Pods-Tests-iOS-LVGUtilities/Pods-Tests-iOS-LVGUtilities-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9F7AD3A3D4478C3D102134A44500300</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>672C53B3B6E7A2F4E5A73AA7EAD0C339</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Pods-Tests-OSX-LVGUtilities-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Pods-Tests-OSX-LVGUtilities.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LVGUtilities</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FA8EC5F600E56D8C2B1285AC6B4A382B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>672C53B3B6E7A2F4E5A73AA7EAD0C339</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Pods-Tests-OSX-LVGUtilities-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-Tests-OSX-LVGUtilities/Pods-Tests-OSX-LVGUtilities.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>LVGUtilities</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A25803A313D322DB17C708 /* LVGUtilities-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EED6B5CCFEF06C8D6668FBFB /* LVGUtilities-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D073D3F0019CED9ACE8A7B /* CBridgingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077B96170336B533AB6E845 /* CBridgingFunctions.swift */; };
+		3F0AD435865ED070BB87DCA7 /* LVGUtilities-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 417AEAEF4447E3A39B86B538 /* LVGUtilities-OSX-dummy.m */; };
+		416B9F73CD789D9B4FB8B918 /* Pods-Tests-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F671159B0B7EC15A4FF6884 /* Pods-Tests-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D728290A0908DDC0EE75E75 /* Pods-Tests-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E2BA787D1884BA90A1563 /* Pods-Tests-OSX-dummy.m */; };
+		5C7AE62A411541AE44BD0438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557671A861B95D5C751A11CF /* Foundation.framework */; };
+		65FD98826B236A0A080BC6EA /* LVGUtilities-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A098B925C8F0B8E7F1B7F89 /* LVGUtilities-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E84A37C954919000875191 /* CBridgingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077B96170336B533AB6E845 /* CBridgingFunctions.swift */; };
+		8966DAB1CE1B54CF659A4907 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA2FEDC25E8D4740B9B7EFA /* Cocoa.framework */; };
+		94E5F6D6DCC49C8F2E2B28F4 /* LVGUtilities-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC96407CA734668CF589FE5 /* LVGUtilities-iOS-dummy.m */; };
+		9B6D9A3C4BAC4E846C6C2B17 /* Pods-Tests-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF95FADBC5768757EAD8EF5E /* Pods-Tests-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3716A9F735AF8AE2F47B0C1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA2FEDC25E8D4740B9B7EFA /* Cocoa.framework */; };
+		A3F0BD2264F81664267C55A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557671A861B95D5C751A11CF /* Foundation.framework */; };
+		AF389FD329519A3DE2F6D1F6 /* Pods-Tests-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA360A3547298F360D77385 /* Pods-Tests-iOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396CFF45E4CC325FBE84956C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E295DD34D168324AEC36D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86910598779A768489A0F534;
+			remoteInfo = "LVGUtilities-OSX";
+		};
+		64B786861A7A175AA7C09E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E295DD34D168324AEC36D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7876F9DE79FF8BE3518F3608;
+			remoteInfo = "LVGUtilities-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0077B96170336B533AB6E845 /* CBridgingFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBridgingFunctions.swift; path = Source/CBridgingFunctions.swift; sourceTree = "<group>"; };
+		0E478ADB500598F4200263ED /* LVGUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LVGUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA360A3547298F360D77385 /* Pods-Tests-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-iOS-dummy.m"; sourceTree = "<group>"; };
+		0F6C5E0971028C09CA898C12 /* LVGUtilities-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "LVGUtilities-OSX.modulemap"; sourceTree = "<group>"; };
+		2C738A6B01902A3B4F2BE65A /* Pods-Tests-OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-OSX-resources.sh"; sourceTree = "<group>"; };
+		3109B2EB21C58FFE45049F71 /* Pods-Tests-OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-OSX-frameworks.sh"; sourceTree = "<group>"; };
+		38C873211F6D44A4597D7208 /* Pods-Tests-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DA2FEDC25E8D4740B9B7EFA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		3DAB5C26D30D361482950680 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../LVGUtilities-iOS/Info.plist"; sourceTree = "<group>"; };
+		4089C2FE329480090AAD7174 /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409E2BA787D1884BA90A1563 /* Pods-Tests-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-OSX-dummy.m"; sourceTree = "<group>"; };
+		417AEAEF4447E3A39B86B538 /* LVGUtilities-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LVGUtilities-OSX-dummy.m"; sourceTree = "<group>"; };
+		4416DBC73DA3137BCB947D1F /* Pods-Tests-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-OSX.modulemap"; sourceTree = "<group>"; };
+		4C301DA474B6A85A7BDDD34F /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		557671A861B95D5C751A11CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A52FBD2E71127561BA1C04D /* Pods_Tests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C984ABF2279161E2B69D48A /* LVGUtilities-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LVGUtilities-OSX-prefix.pch"; sourceTree = "<group>"; };
+		6EB861CB31870F95F01F2C53 /* Pods-Tests-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		6F671159B0B7EC15A4FF6884 /* Pods-Tests-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-iOS-umbrella.h"; sourceTree = "<group>"; };
+		6FC96407CA734668CF589FE5 /* LVGUtilities-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LVGUtilities-iOS-dummy.m"; path = "../LVGUtilities-iOS/LVGUtilities-iOS-dummy.m"; sourceTree = "<group>"; };
+		6FFEB77457D39AC1E805811F /* Pods-Tests-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		718CB0109AF948001C9CAB8C /* Pods-Tests-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-iOS-resources.sh"; sourceTree = "<group>"; };
+		71EF7EA5D8537AF203B3D249 /* Pods-Tests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		7A098B925C8F0B8E7F1B7F89 /* LVGUtilities-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LVGUtilities-iOS-umbrella.h"; path = "../LVGUtilities-iOS/LVGUtilities-iOS-umbrella.h"; sourceTree = "<group>"; };
+		89A287C903069821B411F700 /* Pods-Tests-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests-iOS.modulemap"; sourceTree = "<group>"; };
+		8EF6A0958E2C1FDDF7051542 /* Pods-Tests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		98B8BD3DB1935E2828468509 /* LVGUtilities-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LVGUtilities-iOS-prefix.pch"; path = "../LVGUtilities-iOS/LVGUtilities-iOS-prefix.pch"; sourceTree = "<group>"; };
+		9E4DD8721E158C74AC4D42E2 /* Pods-Tests-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5B75ADE36E4B33D26F0FEC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37A0FD2C12568BEEEDC690 /* LVGUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LVGUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C241B7855DD8D574827441E0 /* LVGUtilities-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LVGUtilities-iOS.xcconfig"; path = "../LVGUtilities-iOS/LVGUtilities-iOS.xcconfig"; sourceTree = "<group>"; };
+		CCA3EFBFBD3890DC18E93D16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE71F474F05C8E718D26704D /* LVGUtilities-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "LVGUtilities-iOS.modulemap"; path = "../LVGUtilities-iOS/LVGUtilities-iOS.modulemap"; sourceTree = "<group>"; };
+		E289B532592DD09201D23CA3 /* Pods-Tests-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB6829F035969C9497C5AA6E /* Pods-Tests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		EED6B5CCFEF06C8D6668FBFB /* LVGUtilities-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LVGUtilities-OSX-umbrella.h"; sourceTree = "<group>"; };
+		F60328ACBFD1BD9B3D205B9F /* Pods-Tests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F86ED9ED2C72197F41B7A976 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3951EE1DD3BA8783004864 /* LVGUtilities-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LVGUtilities-OSX.xcconfig"; sourceTree = "<group>"; };
+		FF95FADBC5768757EAD8EF5E /* Pods-Tests-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-OSX-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69EA312B1CF75A0E146FCD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7AE62A411541AE44BD0438 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C345408E3D986974CD9D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8966DAB1CE1B54CF659A4907 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43193FE69E49E71E59E7894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3716A9F735AF8AE2F47B0C1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB4C71A35FC5394020D2305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0BD2264F81664267C55A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077CE15E47DABE7E3BA5EDC8 /* LVGUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0077B96170336B533AB6E845 /* CBridgingFunctions.swift */,
+				36A0E67B192E28ECE797328D /* Support Files */,
+			);
+			path = LVGUtilities;
+			sourceTree = "<group>";
+		};
+		1B76D037BC0A179325AB4436 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				3DA2FEDC25E8D4740B9B7EFA /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		36A0E67B192E28ECE797328D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB5C26D30D361482950680 /* Info.plist */,
+				F86ED9ED2C72197F41B7A976 /* Info.plist */,
+				CE71F474F05C8E718D26704D /* LVGUtilities-iOS.modulemap */,
+				C241B7855DD8D574827441E0 /* LVGUtilities-iOS.xcconfig */,
+				6FC96407CA734668CF589FE5 /* LVGUtilities-iOS-dummy.m */,
+				98B8BD3DB1935E2828468509 /* LVGUtilities-iOS-prefix.pch */,
+				7A098B925C8F0B8E7F1B7F89 /* LVGUtilities-iOS-umbrella.h */,
+				0F6C5E0971028C09CA898C12 /* LVGUtilities-OSX.modulemap */,
+				FC3951EE1DD3BA8783004864 /* LVGUtilities-OSX.xcconfig */,
+				417AEAEF4447E3A39B86B538 /* LVGUtilities-OSX-dummy.m */,
+				6C984ABF2279161E2B69D48A /* LVGUtilities-OSX-prefix.pch */,
+				EED6B5CCFEF06C8D6668FBFB /* LVGUtilities-OSX-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LVGUtilities-OSX";
+			sourceTree = "<group>";
+		};
+		3F69B86B5BABA516231B40F9 = {
+			isa = PBXGroup;
+			children = (
+				4C301DA474B6A85A7BDDD34F /* Podfile */,
+				5090EA23A48AC266E56C2351 /* Frameworks */,
+				483EDE3AECB18F2EA2B837ED /* Pods */,
+				55B634FF6BFC93FCB6CB3A59 /* Products */,
+				B7ABE537DDD5FAB4B4484552 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		483EDE3AECB18F2EA2B837ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077CE15E47DABE7E3BA5EDC8 /* LVGUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5090EA23A48AC266E56C2351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DA4E64D8B3D994667885BB /* iOS */,
+				1B76D037BC0A179325AB4436 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55B634FF6BFC93FCB6CB3A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA37A0FD2C12568BEEEDC690 /* LVGUtilities.framework */,
+				0E478ADB500598F4200263ED /* LVGUtilities.framework */,
+				4089C2FE329480090AAD7174 /* Pods_Tests_iOS.framework */,
+				5A52FBD2E71127561BA1C04D /* Pods_Tests_OSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DA4E64D8B3D994667885BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				557671A861B95D5C751A11CF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DF139B229A6882B3204BBF3 /* Pods-Tests-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3EFBFBD3890DC18E93D16 /* Info.plist */,
+				89A287C903069821B411F700 /* Pods-Tests-iOS.modulemap */,
+				6FFEB77457D39AC1E805811F /* Pods-Tests-iOS-acknowledgements.markdown */,
+				38C873211F6D44A4597D7208 /* Pods-Tests-iOS-acknowledgements.plist */,
+				0EA360A3547298F360D77385 /* Pods-Tests-iOS-dummy.m */,
+				6EB861CB31870F95F01F2C53 /* Pods-Tests-iOS-frameworks.sh */,
+				718CB0109AF948001C9CAB8C /* Pods-Tests-iOS-resources.sh */,
+				6F671159B0B7EC15A4FF6884 /* Pods-Tests-iOS-umbrella.h */,
+				F60328ACBFD1BD9B3D205B9F /* Pods-Tests-iOS.debug.xcconfig */,
+				EB6829F035969C9497C5AA6E /* Pods-Tests-iOS.release.xcconfig */,
+			);
+			name = "Pods-Tests-iOS";
+			path = "Target Support Files/Pods-Tests-iOS";
+			sourceTree = "<group>";
+		};
+		9FF01D83A0FEE22D18AC25AD /* Pods-Tests-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				B5B75ADE36E4B33D26F0FEC2 /* Info.plist */,
+				4416DBC73DA3137BCB947D1F /* Pods-Tests-OSX.modulemap */,
+				9E4DD8721E158C74AC4D42E2 /* Pods-Tests-OSX-acknowledgements.markdown */,
+				E289B532592DD09201D23CA3 /* Pods-Tests-OSX-acknowledgements.plist */,
+				409E2BA787D1884BA90A1563 /* Pods-Tests-OSX-dummy.m */,
+				3109B2EB21C58FFE45049F71 /* Pods-Tests-OSX-frameworks.sh */,
+				2C738A6B01902A3B4F2BE65A /* Pods-Tests-OSX-resources.sh */,
+				FF95FADBC5768757EAD8EF5E /* Pods-Tests-OSX-umbrella.h */,
+				71EF7EA5D8537AF203B3D249 /* Pods-Tests-OSX.debug.xcconfig */,
+				8EF6A0958E2C1FDDF7051542 /* Pods-Tests-OSX.release.xcconfig */,
+			);
+			name = "Pods-Tests-OSX";
+			path = "Target Support Files/Pods-Tests-OSX";
+			sourceTree = "<group>";
+		};
+		B7ABE537DDD5FAB4B4484552 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF139B229A6882B3204BBF3 /* Pods-Tests-iOS */,
+				9FF01D83A0FEE22D18AC25AD /* Pods-Tests-OSX */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D87391A6AC0CD3D81ADAE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FD98826B236A0A080BC6EA /* LVGUtilities-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464E1B95C0EE13D799800608 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A25803A313D322DB17C708 /* LVGUtilities-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA71EBAF86E5FA9E1B9FB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416B9F73CD789D9B4FB8B918 /* Pods-Tests-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48FAE45E4072B12F2BA0228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6D9A3C4BAC4E846C6C2B17 /* Pods-Tests-OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7876F9DE79FF8BE3518F3608 /* LVGUtilities-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071178E1E5CA56C4E9968CC7 /* Build configuration list for PBXNativeTarget "LVGUtilities-iOS" */;
+			buildPhases = (
+				F9DE9B294BA6CE5A6A44270C /* Sources */,
+				69EA312B1CF75A0E146FCD82 /* Frameworks */,
+				23D87391A6AC0CD3D81ADAE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LVGUtilities-iOS";
+			productName = "LVGUtilities-iOS";
+			productReference = 0E478ADB500598F4200263ED /* LVGUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86910598779A768489A0F534 /* LVGUtilities-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CB50E1464DB404727AE8AE5 /* Build configuration list for PBXNativeTarget "LVGUtilities-OSX" */;
+			buildPhases = (
+				BA08D53C59F18CC7263884BF /* Sources */,
+				D43193FE69E49E71E59E7894 /* Frameworks */,
+				464E1B95C0EE13D799800608 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LVGUtilities-OSX";
+			productName = "LVGUtilities-OSX";
+			productReference = BA37A0FD2C12568BEEEDC690 /* LVGUtilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88F97589B3E2329DB5CB0AB1 /* Pods-Tests-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BCB9598A533E4A2249C9F4 /* Build configuration list for PBXNativeTarget "Pods-Tests-OSX" */;
+			buildPhases = (
+				125F1E66BDA9F3CEA5C2E8B8 /* Sources */,
+				74C345408E3D986974CD9D96 /* Frameworks */,
+				D48FAE45E4072B12F2BA0228 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC2C54105DA283A3F4FDFB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-OSX";
+			productName = "Pods-Tests-OSX";
+			productReference = 5A52FBD2E71127561BA1C04D /* Pods_Tests_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB5717F9AA4B0FC8773AC5B4 /* Pods-Tests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E422631853AFF204F8CBF216 /* Build configuration list for PBXNativeTarget "Pods-Tests-iOS" */;
+			buildPhases = (
+				15AEC689D2F2948F1CA1FAB9 /* Sources */,
+				DEB4C71A35FC5394020D2305 /* Frameworks */,
+				CCA71EBAF86E5FA9E1B9FB8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26486C4DD95F3E4AE15B51DA /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-iOS";
+			productName = "Pods-Tests-iOS";
+			productReference = 4089C2FE329480090AAD7174 /* Pods_Tests_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E295DD34D168324AEC36D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = DAD3DF1AC455A676C023BECD /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F69B86B5BABA516231B40F9;
+			productRefGroup = 55B634FF6BFC93FCB6CB3A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7876F9DE79FF8BE3518F3608 /* LVGUtilities-iOS */,
+				86910598779A768489A0F534 /* LVGUtilities-OSX */,
+				DB5717F9AA4B0FC8773AC5B4 /* Pods-Tests-iOS */,
+				88F97589B3E2329DB5CB0AB1 /* Pods-Tests-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125F1E66BDA9F3CEA5C2E8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D728290A0908DDC0EE75E75 /* Pods-Tests-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15AEC689D2F2948F1CA1FAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF389FD329519A3DE2F6D1F6 /* Pods-Tests-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA08D53C59F18CC7263884BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E84A37C954919000875191 /* CBridgingFunctions.swift in Sources */,
+				3F0AD435865ED070BB87DCA7 /* LVGUtilities-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DE9B294BA6CE5A6A44270C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D073D3F0019CED9ACE8A7B /* CBridgingFunctions.swift in Sources */,
+				94E5F6D6DCC49C8F2E2B28F4 /* LVGUtilities-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26486C4DD95F3E4AE15B51DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LVGUtilities-iOS";
+			target = 7876F9DE79FF8BE3518F3608 /* LVGUtilities-iOS */;
+			targetProxy = 64B786861A7A175AA7C09E2C /* PBXContainerItemProxy */;
+		};
+		2FC2C54105DA283A3F4FDFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LVGUtilities-OSX";
+			target = 86910598779A768489A0F534 /* LVGUtilities-OSX */;
+			targetProxy = 396CFF45E4CC325FBE84956C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		474991FD0CDF5F1F97B5726D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C241B7855DD8D574827441E0 /* LVGUtilities-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LVGUtilities-iOS/LVGUtilities-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LVGUtilities-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LVGUtilities-iOS/LVGUtilities-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LVGUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		499A319A05628CC134CE8A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A778D87199BD23A637218C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF6A0958E2C1FDDF7051542 /* Pods-Tests-OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ACFEF42FE5532925D409682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60328ACBFD1BD9B3D205B9F /* Pods-Tests-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62DC142650381B4369E52ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EF7EA5D8537AF203B3D249 /* Pods-Tests-OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833B0EF1F37CC83B6C519361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6829F035969C9497C5AA6E /* Pods-Tests-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tests_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91D7A67A0AEAE3FDB137A18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C241B7855DD8D574827441E0 /* LVGUtilities-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LVGUtilities-iOS/LVGUtilities-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LVGUtilities-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LVGUtilities-iOS/LVGUtilities-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LVGUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3F19F2C2EA09F08A41F17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3951EE1DD3BA8783004864 /* LVGUtilities-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LVGUtilities-OSX/LVGUtilities-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LVGUtilities-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LVGUtilities-OSX/LVGUtilities-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LVGUtilities;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9AD5EF7E00B4CC444B24169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F248C06DE4247CA9F7FAF3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3951EE1DD3BA8783004864 /* LVGUtilities-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LVGUtilities-OSX/LVGUtilities-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LVGUtilities-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LVGUtilities-OSX/LVGUtilities-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LVGUtilities;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071178E1E5CA56C4E9968CC7 /* Build configuration list for PBXNativeTarget "LVGUtilities-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D7A67A0AEAE3FDB137A18B /* Debug */,
+				474991FD0CDF5F1F97B5726D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CB50E1464DB404727AE8AE5 /* Build configuration list for PBXNativeTarget "LVGUtilities-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F248C06DE4247CA9F7FAF3EF /* Debug */,
+				A3F19F2C2EA09F08A41F17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BCB9598A533E4A2249C9F4 /* Build configuration list for PBXNativeTarget "Pods-Tests-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DC142650381B4369E52ED6 /* Debug */,
+				5A778D87199BD23A637218C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD3DF1AC455A676C023BECD /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AD5EF7E00B4CC444B24169 /* Debug */,
+				499A319A05628CC134CE8A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E422631853AFF204F8CBF216 /* Build configuration list for PBXNativeTarget "Pods-Tests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACFEF42FE5532925D409682 /* Debug */,
+				833B0EF1F37CC83B6C519361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E295DD34D168324AEC36D60 /* Project object */;
+}

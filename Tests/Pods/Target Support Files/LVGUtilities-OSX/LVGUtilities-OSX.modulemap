@@ -1,5 +1,5 @@
 framework module LVGUtilities {
-  umbrella header "Pods-Tests-iOS-LVGUtilities-umbrella.h"
+  umbrella header "LVGUtilities-OSX-umbrella.h"
 
   export *
   module * { export * }
