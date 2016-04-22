@@ -13,3 +13,4 @@ script:
 - open -b com.apple.iphonesimulator
 - set -o pipefail && xcodebuild test -workspace Tests/Tests.xcworkspace -scheme Tests-iOS -sdk iphonesimulator | xcpretty && xcodebuild test -workspace Tests/Tests.xcworkspace -scheme Tests-OSX -sdk macosx | xcpretty
 - pod lib lint
+- gem install claide --pre && pod --version && pod plugins installed --verbose
