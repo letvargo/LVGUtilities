@@ -1,6 +1,0 @@
-framework module LVGUtilities {
-  umbrella header "LVGUtilities-OSX-umbrella.h"
-
-  export *
-  module * { export * }
-}
