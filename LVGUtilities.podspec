@@ -17,4 +17,22 @@ A group of basic Swift utility functions for performing the following tasks:
   s.source_files  = "Source/**/*"
   s.requires_arc = true
 
+  s.subspec 'CBridgingFunctions' do |sp|
+    sp.source_files = 'Source/CBridgingFunctions.swift'
+  end
+
+  s.subspec 'FourCharCodes' do |sp|
+    sp.source_files = 'Source/FourCharCodeUtilities.swift'
+  end
+
+  s.subspec 'CodedPropertyType' do |sp|
+    sp.source_files = 'Source/CodedPropertyType.swift'
+    sp.dependency 'LVGUtilities/FourCharCodes'
+  end
+
+  s.subspec 'CodedErrorType' do |sp|
+    sp.source_files = 'Source/CodedErrorType.swift'
+    sp.dependency 'LVGUtilities/FourCharCodes'
+  end
+
 end
