@@ -55,7 +55,7 @@ public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresent
     var domain: String { get }
     var code: OSStatus { get }
     var shortDescription: String { get }
-    var message: String? { get }
+    var message: String { get }
     
     static func check(status: OSStatus, message: String) throws
     
