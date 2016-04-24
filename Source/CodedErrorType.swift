@@ -16,48 +16,118 @@
  
  **Properties:**
  
- `var rawValue: UInt32 { get }`
+     var rawValue: OSStatus { get }
  
- By default, this is the same as the `code` property.
+ The `rawValue` of the error. The default implementation returns the same 
+ value as `code` and is always an `OSStatus` value.
  
- `var code: UInt32 { get }`
+     var code: OSStatus { get }
  
- The numeric value of the constant that represents the property. The
- 'FourCharCode' for the value can be accessed through its `codeString` property.
+ The `OSStatus` that corresponds to the error in the defining API. The 
+ 'FourCharCode' for the value (if any) can be accessed through its `codeString`
+ property.
  
- `var domain: String { get }`
+     var domain: String { get }
  
- The domain should be the API that defines the property. For example, the
- properties defined in System Sound Services will have the domain 'System
- Sound Services Property'.
+ The domain should be the API that defines the error. For example, the
+ errors defined in System Sound Services will have the domain 'System
+ Sound Services Error'.
  
- `var shortDescription: String { get }`
+     var shortDescription: String { get }
  
  A short description of the property.
  
- `var message: String { get }`
+     var message: String { get }
  
  A message that can provide information about the context from which the
  error was thrown.
  
- `var description: String { get }`
+ **Initializers:**
  
- The printable, formatted description of the error. The
- `description` will include information about the `domain`,
- the `shortDescription`, a `message`, and the `code` properties. If the
- `code` property represents a valid 'FourCharCode', the `codeString`
- will also be printed.
+     init(status: OSStatus, message: String)
+ 
+ Initialize `Self` with an `OSStatus` value and a message with information
+ about the context from which the error is being thrown.
  
  */
 
 public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresentable {
+
+    /**
+    
+     The `rawValue` of the error.
+     
+     The default implementation returns the same value as `code` and is
+     always an `OSStatus` value.
+    
+     */
+
+    var rawValue: OSStatus { get }
+    
+    /**
+     
+     The `OSStatus` that corresponds to the error in the defining API.
+     
+     The 'FourCharCode' for the value (if any) can be accessed through its
+     `codeString` property.
+     
+     */
+    
+    var code: OSStatus { get }
+    
+    /**
+     
+     The the API that defines the error.
+     
+     For example, the errors defined in System Sound Services should
+     have the domain 'System Sound Services Error'.
+     
+     */
     
     var domain: String { get }
-    var code: OSStatus { get }
+    
+    /**
+     
+     A short description of the error.
+     
+     */
+    
     var shortDescription: String { get }
+    
+    /**
+     
+     A message that can provide information about the context from which the
+     error was thrown.
+     
+     */
+    
     var message: String { get }
     
+    /**
+     
+     Checks the `status` and throws a `CodedErrorType` if `status != noErr`.
+     
+     - parameter status: The `OSStatus` value that should be checked.
+     - parameter message: A message that can provide information about the
+     context from which the error is being thrown.
+     
+     - throws: `Self`, a `CodedErrorType`.
+     
+     */
+    
     static func check(status: OSStatus, message: String) throws
+    
+    /**
+     
+     Initialize `Self` with an `OSStatus` value and a `message` with 
+     information about the context from which the error is being thrown.
+     
+     - parameter status: The `OSStatus` code of the error as defined by 
+     the API.
+     - parameter message: A `String` that can be used to provide helpful
+     information about the context from which the error is being thrown.
+    
+     */
     
     init(status: OSStatus, message: String)
 }
@@ -91,9 +161,10 @@ extension CodedErrorType {
     
     /**
      
-     The `rawValue` of the property.
+     The `rawValue` of the error.
      
-     The default implementation returns the same value as `code`.
+     The default implementation returns the same value as `code` and is
+     always an `OSStatus` value.
      
      */
     
@@ -115,8 +186,7 @@ extension CodedErrorType {
     
     /**
      
-     Checks the `status` and throws a `CodedErrorType` with the `message`
-     if `status != noErr`.
+     Checks the `status` and throws a `CodedErrorType` if `status != noErr`.
      
      - parameter status: The `OSStatus` value that should be checked.
      - parameter message: A message that can provide information about the

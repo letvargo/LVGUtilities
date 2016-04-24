@@ -15,6 +15,11 @@
  
  **Properties:**
  
+     var rawValue: UInt32 { get }
+     
+ The `rawValue` of the property. The default implementation returns the 
+ same value as `code` and is always a `UInt32` value.
+ 
      var code: UInt32 { get }
  
  The numeric value of the constant that represents the property. The
