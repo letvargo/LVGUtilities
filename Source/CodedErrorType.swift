@@ -59,7 +59,7 @@ public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresent
     
     static func check(status: OSStatus, message: String) throws
     
-    init(status: OSStatus, message: String?)
+    init(status: OSStatus, message: String)
 }
 
 extension CodedErrorType {
@@ -78,9 +78,7 @@ extension CodedErrorType {
     public var description: String {
         
         var base = "\(self.domain): \(self.shortDescription)."
-        if let message = self.message {
-            base.appendContentsOf("\n\tMessage: \(message)")
-        }
+        base.appendContentsOf("\n\tMessage: \(message)")
         
         base.appendContentsOf("\n\tCode: \(self.code)")
         
