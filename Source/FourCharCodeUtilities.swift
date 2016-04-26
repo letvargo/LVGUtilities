@@ -27,20 +27,13 @@ import Foundation
  codes have 4-character code strings associated with them, and these
  can be useful for debugging.
  
- **Properties:**
- 
-     var codeString: String? { get }
- 
- A `String`, exactly 4 characters in length, that represents
- the 'FourCharCode' of the value.
- 
  */
 
 public protocol CodeStringConvertible {
     
     /**
      
-     A `String`, exactly 4 characters in length, that represents
+     A `String`, exactly 4 ASCII characters in length, that represents
      the 'FourCharCode' of the value.
      
      Many Apple APIs have error codes or constants that can be converted
@@ -62,26 +55,6 @@ public protocol CodeStringConvertible {
 }
 
 extension CodeStringConvertible {
-    
-    /**
-     
-     A `String`, exactly 4 characters in length, that represents
-     the 'FourCharCode' of the value.
-     
-     Many Apple APIs have error codes or constants that can be converted
-     to a 4-character string. Valid 4-character code strings are exactly
-     4 characers long and every character is between ASCII values 32..<127.
-     
-     For example, the constant `kAudioServicesBadPropertySizeError` defined in
-     Audio Toolbox has a 4-character code string '!siz'. Many `OSStatus` error
-     codes have 4-character code strings associated with them, and these
-     can be useful for debugging.
-     
-     If the value that this is called on is not exactly 4 bytes in size,
-     or if any of the bytes (interpreted as a `UInt8`) does not represent an
-     ASCII value contained in `32..<127`, the `codeString` property will be `nil`.
-     
-     */
     
     public var codeString: String? {
         
