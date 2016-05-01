@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		57D4F64E1CD6377E0007AAFC /* FourCharCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F64D1CD6377E0007AAFC /* FourCharCodeTests.swift */; };
 		57D4F64F1CD6377E0007AAFC /* FourCharCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F64D1CD6377E0007AAFC /* FourCharCodeTests.swift */; };
+		57D4F6541CD68D6E0007AAFC /* CodedPropertyTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F6531CD68D6E0007AAFC /* CodedPropertyTypeTests.swift */; };
+		57D4F6551CD68F4F0007AAFC /* CodedPropertyTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F6531CD68D6E0007AAFC /* CodedPropertyTypeTests.swift */; };
+		57D4F6571CD691C20007AAFC /* CodedErrorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F6561CD691C20007AAFC /* CodedErrorTypeTests.swift */; };
+		57D4F6581CD691C20007AAFC /* CodedErrorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4F6561CD691C20007AAFC /* CodedErrorTypeTests.swift */; };
 		57E24C0D1CC8F91400373EFF /* CBridgingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E24C0C1CC8F91400373EFF /* CBridgingTests.swift */; };
 		57E24C1A1CC8F97B00373EFF /* CBridgingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E24C0C1CC8F91400373EFF /* CBridgingTests.swift */; };
 		88C8CF4CAF8F0BB94722D383 /* Pods_Tests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E890062174C5D8739F7085F /* Pods_Tests_OSX.framework */; };
@@ -18,6 +22,8 @@
 /* Begin PBXFileReference section */
 		1D8F3503823BB59B7DBA979B /* Pods-Tests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		57D4F64D1CD6377E0007AAFC /* FourCharCodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourCharCodeTests.swift; path = TestFiles/FourCharCodeTests.swift; sourceTree = "<group>"; };
+		57D4F6531CD68D6E0007AAFC /* CodedPropertyTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodedPropertyTypeTests.swift; path = TestFiles/CodedPropertyTypeTests.swift; sourceTree = "<group>"; };
+		57D4F6561CD691C20007AAFC /* CodedErrorTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodedErrorTypeTests.swift; path = TestFiles/CodedErrorTypeTests.swift; sourceTree = "<group>"; };
 		57E24C021CC8F87200373EFF /* Tests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E24C071CC8F87200373EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E24C0C1CC8F91400373EFF /* CBridgingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CBridgingTests.swift; path = TestFiles/CBridgingTests.swift; sourceTree = "<group>"; };
@@ -93,6 +99,8 @@
 			children = (
 				57E24C0C1CC8F91400373EFF /* CBridgingTests.swift */,
 				57D4F64D1CD6377E0007AAFC /* FourCharCodeTests.swift */,
+				57D4F6531CD68D6E0007AAFC /* CodedPropertyTypeTests.swift */,
+				57D4F6561CD691C20007AAFC /* CodedErrorTypeTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -310,6 +318,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D4F64E1CD6377E0007AAFC /* FourCharCodeTests.swift in Sources */,
+				57D4F6541CD68D6E0007AAFC /* CodedPropertyTypeTests.swift in Sources */,
+				57D4F6571CD691C20007AAFC /* CodedErrorTypeTests.swift in Sources */,
 				57E24C0D1CC8F91400373EFF /* CBridgingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D4F64F1CD6377E0007AAFC /* FourCharCodeTests.swift in Sources */,
+				57D4F6551CD68F4F0007AAFC /* CodedPropertyTypeTests.swift in Sources */,
+				57D4F6581CD691C20007AAFC /* CodedErrorTypeTests.swift in Sources */,
 				57E24C1A1CC8F97B00373EFF /* CBridgingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
