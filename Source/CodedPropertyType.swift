@@ -13,28 +13,6 @@
  A protocol for working with API-defined properties that are represented by a
  constant `UInt32` value.
  
- **Properties:**
- 
-     var rawValue: UInt32 { get }
-     
- The `rawValue` of the property. The default implementation returns the 
- same value as `code` and is always a `UInt32` value.
- 
-     var code: UInt32 { get }
- 
- The numeric value of the constant that represents the property. The
- 'FourCharCode' for the value can be accessed through its `codeString` property.
- 
-     var domain: String { get }
- 
- The domain should be the API that defines the property. For example, the
- properties defined in System Sound Services will have the domain 'System
- Sound Services Property'.
- 
-     var shortDescription: String { get }
- 
- A short description of the property.
- 
  */
 
 public protocol CodedPropertyType: CustomStringConvertible, RawRepresentable {
