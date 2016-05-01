@@ -17,19 +17,15 @@ class PodTestsTests: XCTestCase {
     
     var obj = TestClass()
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testEquality() {
+    func testEqualityAfterBridgeRetained() {
         let objBridged = bridgeRetained(obj)
         let objUnbridged: TestClass = bridgeTransfer(objBridged)
+        XCTAssert(obj === objUnbridged)
+    }
+    
+    func testEqualityAfterBridge() {
+        let objBridged = bridge(obj)
+        let objUnbridged: TestClass = bridge(objBridged)
         XCTAssert(obj === objUnbridged)
     }
 }

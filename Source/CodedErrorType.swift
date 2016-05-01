@@ -14,41 +14,6 @@
  into a Swift `ErrorType` with a useful `description` that can be used for
  debugging.
  
- **Properties:**
- 
-     var rawValue: OSStatus { get }
- 
- The `rawValue` of the error. The default implementation returns the same 
- value as `code` and is always an `OSStatus` value.
- 
-     var code: OSStatus { get }
- 
- The `OSStatus` that corresponds to the error in the defining API. The 
- 'FourCharCode' for the value (if any) can be accessed through its `codeString`
- property.
- 
-     var domain: String { get }
- 
- The domain should be the API that defines the error. For example, the
- errors defined in System Sound Services will have the domain 'System
- Sound Services Error'.
- 
-     var shortDescription: String { get }
- 
- A short description of the property.
- 
-     var message: String { get }
- 
- A message that can provide information about the context from which the
- error was thrown.
- 
- **Initializers:**
- 
-     init(status: OSStatus, message: String)
- 
- Initialize `Self` with an `OSStatus` value and a message with information
- about the context from which the error is being thrown.
- 
  */
 
 public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresentable {
