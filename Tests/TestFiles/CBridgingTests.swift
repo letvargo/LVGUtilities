@@ -9,7 +9,7 @@
 import XCTest
 import LVGUtilities
 
-class PodTestsTests: XCTestCase {
+class CBridgingFunctionTests: XCTestCase {
 
     class TestClass {
         var value = 0
