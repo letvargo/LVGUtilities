@@ -56,6 +56,7 @@ public protocol CodeStringConvertible {
 
 extension CodeStringConvertible {
     
+    /// A 4-character String representation of the value.
     public var codeString: String? {
         
         let size = sizeof(self.dynamicType)

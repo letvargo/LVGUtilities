@@ -17,55 +17,21 @@
  */
 
 public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresentable {
-
-    /**
     
-     The `rawValue` of the error.
-     
-     The default implementation returns the same value as `code` and is
-     always an `OSStatus` value.
-    
-     */
-
+    /// The `rawValue` of the error.
     var rawValue: OSStatus { get }
-    
-    /**
      
-     The `OSStatus` that corresponds to the error in the defining API.
-     
-     The 'FourCharCode' for the value (if any) can be accessed through its
-     `codeString` property.
-     
-     */
-    
+    /// The `OSStatus` that corresponds to the error in the defining API.
     var code: OSStatus { get }
-    
-    /**
      
-     The the API that defines the error.
-     
-     For example, the errors defined in System Sound Services should
-     have the domain 'System Sound Services Error'.
-     
-     */
-    
+    /// The the API that defines the error.
     var domain: String { get }
-    
-    /**
      
-     A short description of the error.
-     
-     */
-    
+    /// A short description of the error.
     var shortDescription: String { get }
-    
-    /**
      
-     A message that can provide information about the context from which the
-     error was thrown.
-     
-     */
-    
+    /// A message that can provide information about the context from which the
+    /// error was thrown.
     var message: String { get }
     
     /**
