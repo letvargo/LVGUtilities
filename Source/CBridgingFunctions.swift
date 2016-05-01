@@ -8,7 +8,7 @@
 
 /**
 
- Return an `UnsafePointer<Void>` to any class object.
+ Return an `UnsafeMutablePointer<Void>` to any class object.
  
  This function does not retain a reference to the object. If you need to retain
  a reference to the object to ensure that it is not destroyed, use
@@ -17,12 +17,12 @@
  - parameter object: The the object that you need a point to. It must be a
  class object that conforms to `AnyObject`.
  
- - returns: An `UnsafePointer<Void>` to `object`.
+ - returns: An `UnsafeMutablePointer<Void>` to `object`.
  
  */
 
-public func bridge<T: AnyObject>(object: T) -> UnsafePointer<Void> {
-    return UnsafePointer(Unmanaged.passUnretained(object).toOpaque())
+public func bridge<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
+    return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
 }
 
 /**
@@ -49,7 +49,7 @@ public func bridge<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
 
 /**
  
- Return an `UnsafePointer<Void>` to any class object and increases the object's
+ Return an `UnsafeMutablePointer<Void>` to any class object and increases the object's
  reference count by one.
  
  This function retains a reference to the object. If you do not want to retain
@@ -58,12 +58,12 @@ public func bridge<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
  - parameter object: The the object that you need a point to. It must be a
  class object that conforms to `AnyObject`.
  
- - returns: An `UnsafePointer<Void>` to `object`.
+ - returns: An `UnsafeMutablePointer<Void>` to `object`.
  
  */
 
-public func bridgeRetained<T: AnyObject>(obj: T) -> UnsafePointer<Void> {
-    return UnsafePointer(Unmanaged.passRetained(obj).toOpaque())
+public func bridgeRetained<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
+    return UnsafeMutablePointer(Unmanaged.passRetained(obj).toOpaque())
 }
 
 /**
