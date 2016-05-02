@@ -18,14 +18,14 @@ class CBridgingFunctionTests: XCTestCase {
     var obj = TestClass()
     
     func testEqualityAfterBridgeRetained() {
-        let objBridged = bridgeRetained(obj)
-        let objUnbridged: TestClass = bridgeTransfer(objBridged)
+        let objBridged = toPointerRetain(obj)
+        let objUnbridged: TestClass = fromPointerConsume(objBridged)
         XCTAssert(obj === objUnbridged)
     }
     
     func testEqualityAfterBridge() {
-        let objBridged = bridge(obj)
-        let objUnbridged: TestClass = bridge(objBridged)
+        let objBridged = toPointer(obj)
+        let objUnbridged: TestClass = fromPointer(objBridged)
         XCTAssert(obj === objUnbridged)
     }
 }
