@@ -57,4 +57,4 @@ letvargo, letvargo@gmail.com
 
 ## License
 
-LVGSwiftSystemSoundServices is available under the MIT license. See the LICENSE file for more info.
+LVGUtilities is available under the MIT license. See the LICENSE file for more info.
