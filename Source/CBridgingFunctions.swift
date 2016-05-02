@@ -12,7 +12,7 @@
  
  This function does not retain a reference to the object. If you need to retain
  a reference to the object to ensure that it is not destroyed, use
- `bridgeRetained(_:)` instead.
+ `toPointerRetain(_:)` instead.
  
  - parameter object: The the object that you need a point to. It must be a
  class object that conforms to `AnyObject`.
@@ -21,7 +21,7 @@
  
  */
 
-public func bridge<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
+public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
     return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
 }
 
@@ -31,7 +31,7 @@ public func bridge<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
  
  This function does not consume a reference to the object. If you need to 
  consume a reference to the object to prevent a retain cyle, use
- `bridgeTransfer(_:)` instead.
+ `fromPointerConsume(_:)` instead.
  
  Note that when calling this function the compiler may not be able to infer
  the type that you are casting to. Use a type annotation to specify the type
@@ -43,7 +43,7 @@ public func bridge<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
  
  */
 
-public func bridge<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
+public func fromPointer<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
     return Unmanaged<T>.fromOpaque(COpaquePointer(pointer)).takeUnretainedValue()
 }
 
@@ -53,7 +53,7 @@ public func bridge<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
  reference count by one.
  
  This function retains a reference to the object. If you do not want to retain
- a reference to the object, use `bridge(_:)` instead.
+ a reference to the object, use `toPointer(_:)` instead.
  
  - parameter object: The the object that you need a point to. It must be a
  class object that conforms to `AnyObject`.
@@ -62,7 +62,7 @@ public func bridge<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
  
  */
 
-public func bridgeRetained<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
+public func toPointerRetain<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
     return UnsafeMutablePointer(Unmanaged.passRetained(obj).toOpaque())
 }
 
@@ -72,7 +72,7 @@ public func bridgeRetained<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
  a reference to the object.
  
  This function consumes a reference to the object. If you do not want to
- consume a reference to the object use `bridge(_:)` instead.
+ consume a reference to the object use `fromPointer(_:)` instead.
  
  Note that when calling this function the compiler may not be able to infer
  the type that you are casting to. Use a type annotation to specify the type
@@ -84,6 +84,6 @@ public func bridgeRetained<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
  
  */
 
-public func bridgeTransfer<T: AnyObject>(ptr: UnsafePointer<Void>) -> T {
+public func fromPointerConsume<T: AnyObject>(ptr: UnsafePointer<Void>) -> T {
     return Unmanaged<T>.fromOpaque(COpaquePointer(ptr)).takeRetainedValue()
 }
