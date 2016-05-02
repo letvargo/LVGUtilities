@@ -1,5 +1,3 @@
-source 'https://github.com/letvargo/Specs.git'
-
 use_frameworks!
 
 install! 'cocoapods',

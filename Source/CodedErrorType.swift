@@ -90,43 +90,18 @@ extension CodedErrorType {
         return base
     }
     
-    /**
-     
-     The `rawValue` of the error.
-     
-     The default implementation returns the same value as `code` and is
-     always an `OSStatus` value.
-     
-     */
-    
+    /// The default implementation returns the same value as `code` and is
+    /// always an `OSStatus` value.
     public var rawValue: OSStatus {
         return self.code
     }
     
-    /**
-     
-     Initialize a `CodedErrorType` by its `rawValue`.
-     
-     The default implementation calls `self.init(status: rawValue, message: "No message.")`.
-     
-     */
-    
+    /// The default implementation calls `self.init(status: rawValue, message: "No message.")`.
     public init(rawValue: OSStatus) {
         self.init(status: rawValue, message: "No message.")
     }
     
-    /**
-     
-     Checks the `status` and throws a `CodedErrorType` if `status != noErr`.
-     
-     - parameter status: The `OSStatus` value that should be checked.
-     - parameter message: A message that can provide information about the
-     context from which the error is being thrown.
-     
-     - throws: `Self`, a `CodedErrorType`.
-     
-     */
-    
+    /// Checks the `status` and throws a `CodedErrorType` if `status != noErr`.
     public static func check(status: OSStatus, message: String) throws {
         
         guard
