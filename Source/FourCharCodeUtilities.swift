@@ -12,7 +12,7 @@ import Foundation
 
 /**
  
- Converts a 4-byte integer type to a 4-character `String`.
+ A protocol for converting 4-byte integer types to a 4-character `String`.
  
  By default, only `UInt32` and `Int32` conform to this protocol.
  Various `typealias`es for these two types will also conform, including
@@ -20,10 +20,10 @@ import Foundation
  
  Many Apple APIs have error codes or constants that can be converted
  to a 4-character string. Valid 4-character code strings are exactly
- 4 characers long and every character is between ASCII values 32..<127.
+ 4 characers long and every character is between ASCII values `32..<127`.
  
  For example, the constant `kAudioServicesBadPropertySizeError` defined in
- Audio Toolbox has a 4-character code string '!siz'. Many `OSStatus` error
+ Audio Toolbox has a 4-character code string '`!siz`'. Many `OSStatus` error
  codes have 4-character code strings associated with them, and these
  can be useful for debugging.
  
@@ -35,15 +35,6 @@ public protocol CodeStringConvertible {
      
      A `String`, exactly 4 ASCII characters in length, that represents
      the 'FourCharCode' of the value.
-     
-     Many Apple APIs have error codes or constants that can be converted
-     to a 4-character string. Valid 4-character code strings are exactly
-     4 characers long and every character is between ASCII values 32..<127.
-     
-     For example, the constant `kAudioServicesBadPropertySizeError` defined in
-     Audio Toolbox has a 4-character code string '!siz'. Many `OSStatus` error
-     codes have 4-character code strings associated with them, and these
-     can be useful for debugging.
      
      If the value that this is called on is not exactly 4 bytes in size,
      or if any of the bytes (interpreted as a `UInt8`) does not represent an

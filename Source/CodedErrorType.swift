@@ -10,16 +10,27 @@
 
 /**
  
- A protocol that can be used to convert API-defined `OSStatus` error codes
- into a Swift `ErrorType` with a useful `description` that can be used for
- debugging.
+ A protocol that can be used to convert API-defined `OSStatus` (`Int32`) 
+ error codes into a Swift `ErrorType` with a useful `description` that 
+ can be used for debugging.
  
  */
 
 public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresentable {
     
-    /// The `rawValue` of the error.
-    var rawValue: OSStatus { get }
+    /**
+     
+     Initialize `Self` with an `OSStatus` value and a `message` with
+     information about the context from which the error is being thrown.
+     
+     - parameter status: The `OSStatus` code of the error as defined by
+     the API.
+     - parameter message: A `String` that can be used to provide helpful
+     information about the context from which the error is being thrown.
+     
+     */
+    
+    init(status: OSStatus, message: String)
      
     /// The `OSStatus` that corresponds to the error in the defining API.
     var code: OSStatus { get }
@@ -27,12 +38,12 @@ public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresent
     /// The the API that defines the error.
     var domain: String { get }
      
-    /// A short description of the error.
-    var shortDescription: String { get }
-     
     /// A message that can provide information about the context from which the
     /// error was thrown.
     var message: String { get }
+    
+    /// A short description of the error.
+    var shortDescription: String { get }
     
     /**
      
@@ -47,23 +58,17 @@ public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresent
      */
     
     static func check(status: OSStatus, message: String) throws
-    
-    /**
-     
-     Initialize `Self` with an `OSStatus` value and a `message` with 
-     information about the context from which the error is being thrown.
-     
-     - parameter status: The `OSStatus` code of the error as defined by 
-     the API.
-     - parameter message: A `String` that can be used to provide helpful
-     information about the context from which the error is being thrown.
-    
-     */
-    
-    init(status: OSStatus, message: String)
 }
 
 extension CodedErrorType {
+    
+    /// The `rawValue` for `CodedErrorType` is a `Int32`.
+    public typealias RawValue = Int32
+    
+    /// The default implementation calls `self.init(status: rawValue, message: "No message.")`.
+    public init(rawValue: OSStatus) {
+        self.init(status: rawValue, message: "No message.")
+    }
     
     /**
      
@@ -94,11 +99,6 @@ extension CodedErrorType {
     /// always an `OSStatus` value.
     public var rawValue: OSStatus {
         return self.code
-    }
-    
-    /// The default implementation calls `self.init(status: rawValue, message: "No message.")`.
-    public init(rawValue: OSStatus) {
-        self.init(status: rawValue, message: "No message.")
     }
     
     /// Checks the `status` and throws a `CodedErrorType` if `status != noErr`.

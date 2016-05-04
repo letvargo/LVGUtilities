@@ -17,8 +17,8 @@
 
 public protocol CodedPropertyType: CustomStringConvertible, RawRepresentable {
     
-    /// The `rawValue` of the property.
-    var rawValue: UInt32 { get }
+    /// Initialize a `CodedPropertyType` from a `UInt32` value.
+    init?(code: UInt32)
      
     /// The numeric value of the constant that represents the property.
     var code: UInt32 { get }
@@ -28,12 +28,17 @@ public protocol CodedPropertyType: CustomStringConvertible, RawRepresentable {
     
     /// A short description of the property.
     var shortDescription: String { get }
-    
-    /// Initialize a `CodedPropertyType` from a `UInt32` value.
-    init?(code: UInt32)
 }
 
 extension CodedPropertyType {
+    
+    /// The `rawValue` for `CodedPropertyType` is an `UInt32`.
+    public typealias RawValue = UInt32
+    
+    /// The default implementation calls `self.init(code: rawValue)`.
+    public init?(rawValue: UInt32) {
+        self.init(code: rawValue)
+    }
     
     /**
      
@@ -59,10 +64,5 @@ extension CodedPropertyType {
     /// The default implementation returns the same value as `code`.
     public var rawValue: UInt32 {
         return self.code
-    }
-    
-    /// The default implementation calls `self.init(code: rawValue)`.
-    public init?(rawValue: UInt32) {
-        self.init(code: rawValue)
     }
 }

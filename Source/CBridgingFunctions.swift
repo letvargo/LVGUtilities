@@ -8,25 +8,6 @@
 
 /**
 
- Return an `UnsafeMutablePointer<Void>` to any class object.
- 
- This function does not retain a reference to the object. If you need to retain
- a reference to the object to ensure that it is not destroyed, use
- `toPointerRetain(_:)` instead.
- 
- - parameter object: The the object that you need a point to. It must be a
- class object that conforms to `AnyObject`.
- 
- - returns: An `UnsafeMutablePointer<Void>` to `object`.
- 
- */
-
-public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
-    return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
-}
-
-/**
-
  Cast an `UnsafePointer<Void>` to an object of type `T`.
  
  This function does not consume a reference to the object. If you need to 
@@ -49,25 +30,6 @@ public func fromPointer<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
 
 /**
  
- Return an `UnsafeMutablePointer<Void>` to any class object and increases the object's
- reference count by one.
- 
- This function retains a reference to the object. If you do not want to retain
- a reference to the object, use `toPointer(_:)` instead.
- 
- - parameter object: The the object that you need a point to. It must be a
- class object that conforms to `AnyObject`.
- 
- - returns: An `UnsafeMutablePointer<Void>` to `object`.
- 
- */
-
-public func toPointerRetain<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
-    return UnsafeMutablePointer(Unmanaged.passRetained(obj).toOpaque())
-}
-
-/**
- 
  Cast an `UnsafePointer<Void>` to an object of type `T` and consume
  a reference to the object.
  
@@ -86,4 +48,42 @@ public func toPointerRetain<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> 
 
 public func fromPointerConsume<T: AnyObject>(ptr: UnsafePointer<Void>) -> T {
     return Unmanaged<T>.fromOpaque(COpaquePointer(ptr)).takeRetainedValue()
+}
+
+/**
+ 
+ Return an `UnsafeMutablePointer<Void>` to any class object.
+ 
+ This function does not retain a reference to the object. If you need to retain
+ a reference to the object to ensure that it is not destroyed, use
+ `toPointerRetain(_:)` instead.
+ 
+ - parameter object: The the object that you need a point to. It must be a
+ class object that conforms to `AnyObject`.
+ 
+ - returns: An `UnsafeMutablePointer<Void>` to `object`.
+ 
+ */
+
+public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
+    return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
+}
+
+/**
+ 
+ Return an `UnsafeMutablePointer<Void>` to any class object and increases the object's
+ reference count by one.
+ 
+ This function retains a reference to the object. If you do not want to retain
+ a reference to the object, use `toPointer(_:)` instead.
+ 
+ - parameter object: The the object that you need a point to. It must be a
+ class object that conforms to `AnyObject`.
+ 
+ - returns: An `UnsafeMutablePointer<Void>` to `object`.
+ 
+ */
+
+public func toPointerRetain<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
+    return UnsafeMutablePointer(Unmanaged.passRetained(obj).toOpaque())
 }
