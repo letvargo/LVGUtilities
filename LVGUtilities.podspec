@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LVGUtilities"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Basic Swift utility functions."
   s.homepage     = 'https://github.com/letvargo/LVGUtilities'
   s.description  = <<-DESC
