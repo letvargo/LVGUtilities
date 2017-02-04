@@ -59,9 +59,9 @@ extension CodeStringConvertible {
             let ptr = UnsafePointer<UInt8>(value)
             var bytes = [UInt8]()
             
-            for index in (0..<size).reverse() {
+            for index in (0..<size).reversed() {
                 
-                let byte = ptr.advancedBy(index).memory
+                let byte = ptr.advanced(by: index).pointee
                 
                 if (32..<127).contains(byte) {
                     
@@ -76,11 +76,11 @@ extension CodeStringConvertible {
             return bytes
         }
         
-        if  let bytes = parseBytes([self]),
+        if  let bytes = parseBytes(value: [self]),
             let output = NSString(
                 bytes: bytes
                 , length: size
-                , encoding: NSUTF8StringEncoding) as? String {
+                , encoding: String.Encoding.utf8.rawValue) as? String {
             
             return output
         }
@@ -113,10 +113,10 @@ extension String {
     public func propertyCode() -> UInt32? {
         
         func pointsToUInt32(points: UnsafePointer<UInt8>) -> UInt32 {
-            return UnsafePointer<UInt32>(points).memory
+            return UnsafePointer<UInt32>(points).pointee
         }
         
-        let codePoints = Array(self.utf8.reverse())
+        let codePoints = Array(self.utf8.reversed())
         
         guard
             codePoints.count == 4
@@ -130,7 +130,7 @@ extension String {
                 return nil
         }
         
-        return pointsToUInt32(codePoints)
+        return pointsToUInt32(points: codePoints)
     }
     
     /**
@@ -149,10 +149,10 @@ extension String {
     public func statusCode() -> OSStatus? {
         
         func pointsToInt32(points: UnsafePointer<UInt8>) -> Int32 {
-            return UnsafePointer<Int32>(points).memory
+            return UnsafePointer<Int32>(points).pointee
         }
         
-        let codePoints = Array(self.utf8.reverse())
+        let codePoints = Array(self.utf8.reversed())
         
         guard
             codePoints.count == 4
@@ -166,6 +166,6 @@ extension String {
                 return nil
         }
         
-        return pointsToInt32(codePoints)
+        return pointsToInt32(points: codePoints)
     }
 }

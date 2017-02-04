@@ -16,7 +16,7 @@
  
  */
 
-public protocol CodedErrorType: ErrorType, CustomStringConvertible, RawRepresentable {
+public protocol CodedErrorType: ErrorProtocol, CustomStringConvertible, RawRepresentable {
     
     /**
      
@@ -84,12 +84,12 @@ extension CodedErrorType {
     public var description: String {
         
         var base = "\(self.domain): \(self.shortDescription)."
-        base.appendContentsOf("\n\tMessage: \(message)")
+        base.append("\n\tMessage: \(message)")
         
-        base.appendContentsOf("\n\tCode: \(self.code)")
+        base.append("\n\tCode: \(self.code)")
         
         if let codeString = self.code.codeString {
-            base.appendContentsOf(" ('\(codeString)')")
+            base.append(" ('\(codeString)')")
         }
         
         return base

@@ -55,7 +55,7 @@ extension CodedPropertyType {
         var base = "\(self.domain): \(self.shortDescription)\n\tCode: \(self.code)"
         
         if let codeString = self.code.codeString {
-            base.appendContentsOf(" ('\(codeString)')")
+            base.append(" ('\(codeString)')")
         }
         
         return base

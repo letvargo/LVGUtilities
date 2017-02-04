@@ -24,8 +24,8 @@
  
  */
 
-public func fromPointer<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
-    return Unmanaged<T>.fromOpaque(COpaquePointer(pointer)).takeUnretainedValue()
+public func fromPointer<T: AnyObject>(pointer: UnsafePointer<Void>) -> T {
+    return Unmanaged.fromOpaque(pointer).takeUnretainedValue()
 }
 
 /**
@@ -46,8 +46,8 @@ public func fromPointer<T : AnyObject>(pointer: UnsafePointer<Void>) -> T {
  
  */
 
-public func fromPointerConsume<T: AnyObject>(ptr: UnsafePointer<Void>) -> T {
-    return Unmanaged<T>.fromOpaque(COpaquePointer(ptr)).takeRetainedValue()
+public func fromPointerConsume<T: AnyObject>(pointer: UnsafePointer<Void>) -> T {
+    return Unmanaged.fromOpaque(pointer).takeRetainedValue()
 }
 
 /**
@@ -65,7 +65,8 @@ public func fromPointerConsume<T: AnyObject>(ptr: UnsafePointer<Void>) -> T {
  
  */
 
-public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
+public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<T> {
+
     return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
 }
 
@@ -84,6 +85,6 @@ public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
  
  */
 
-public func toPointerRetain<T: AnyObject>(obj: T) -> UnsafeMutablePointer<Void> {
-    return UnsafeMutablePointer(Unmanaged.passRetained(obj).toOpaque())
+public func toPointerRetain<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
+    return UnsafeMutablePointer(Unmanaged.passRetained(object).toOpaque())
 }
