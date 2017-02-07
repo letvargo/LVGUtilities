@@ -12,8 +12,8 @@ import LVGUtilities
 class CodedPropertyTypeTests: XCTestCase {
 
     enum CodedProperty: CodedPropertyType {
-        case TestCaseOne
-        case TestCaseTwo
+        case testCaseOne
+        case testCaseTwo
         
         var domain: String {
             return "Coded Property Test Type"
@@ -21,24 +21,24 @@ class CodedPropertyTypeTests: XCTestCase {
         
         var shortDescription: String {
             switch self {
-            case .TestCaseOne:
+            case .testCaseOne:
                 return "Test Case One"
-            case .TestCaseTwo:
+            case .testCaseTwo:
                 return "Test Case Two"
             }
         }
         
         var code: UInt32 {
             switch self {
-            case .TestCaseOne: return 1
-            case .TestCaseTwo: return 2
+            case .testCaseOne: return 1
+            case .testCaseTwo: return 2
             }
         }
         
         init?(code: UInt32) {
             switch code {
-            case 1: self = .TestCaseOne
-            case 2: self = .TestCaseTwo
+            case 1: self = .testCaseOne
+            case 2: self = .testCaseTwo
             default:
                 return nil
             }
@@ -46,47 +46,47 @@ class CodedPropertyTypeTests: XCTestCase {
     }
 
     func testDomain() {
-        let property = CodedProperty.TestCaseOne
+        let property = CodedProperty.testCaseOne
         XCTAssertEqual(property.domain, "Coded Property Test Type", "Did not return correct domain.")
     }
     
     func testCode() {
-        let property = CodedProperty.TestCaseOne
+        let property = CodedProperty.testCaseOne
         XCTAssertEqual(property.code, 1, "Did not return correct code.")
     }
     
     func testRawValue() {
-        let property = CodedProperty.TestCaseOne
+        let property = CodedProperty.testCaseOne
         XCTAssertEqual(property.rawValue, 1, "Did not return correct rawValue.")
     }
     
     func testRawValueEqualsCode() {
-        let property = CodedProperty.TestCaseTwo
+        let property = CodedProperty.testCaseTwo
         XCTAssertEqual(property.rawValue, property.code, "rawValue does not equal code.")
     }
     
     func testShortDescription() {
-        let property = CodedProperty.TestCaseTwo
+        let property = CodedProperty.testCaseTwo
         XCTAssertEqual(property.shortDescription, "Test Case Two", "Did not return correct shortDescription.")
     }
     
     func testCodeInit() {
         if let property = CodedProperty(code: 2) {
-            XCTAssertEqual(property, CodedProperty.TestCaseTwo, "Did not initialize correctly from code 2.")
+            XCTAssertEqual(property, CodedProperty.testCaseTwo, "Did not initialize correctly from code 2.")
         } else {
             XCTFail()
         }
     }
     
     func testRawValueInit() {
-        if let property = CodedProperty(rawValue: 2) {
-            XCTAssertEqual(property, CodedProperty.TestCaseTwo, "Did not initialize correctly from rawValue 2.")
+        if let property = CodedProperty(code: 2) {
+            XCTAssertEqual(property, CodedProperty.testCaseTwo, "Did not initialize correctly from rawValue 2.")
         } else {
             XCTFail()
         }
     }
     
     func testFailedInit() {
-        XCTAssertNil(CodedProperty(rawValue: 3), "Init should have returned nil.")
+        XCTAssertNil(CodedProperty(code: 3), "Init should have returned nil.")
     }
 }

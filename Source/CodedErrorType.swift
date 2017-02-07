@@ -16,7 +16,7 @@
  
  */
 
-public protocol CodedErrorType: ErrorProtocol, CustomStringConvertible, RawRepresentable {
+public protocol CodedErrorType: Error, CustomStringConvertible, RawRepresentable {
     
     /**
      
@@ -57,7 +57,7 @@ public protocol CodedErrorType: ErrorProtocol, CustomStringConvertible, RawRepre
      
      */
     
-    static func check(status: OSStatus, message: String) throws
+    static func check(_ status: OSStatus, message: String) throws
 }
 
 extension CodedErrorType {
@@ -102,7 +102,7 @@ extension CodedErrorType {
     }
     
     /// Checks the `status` and throws a `CodedErrorType` if `status != noErr`.
-    public static func check(status: OSStatus, message: String) throws {
+    public static func check(_ status: OSStatus, message: String) throws {
         
         guard
             status == noErr

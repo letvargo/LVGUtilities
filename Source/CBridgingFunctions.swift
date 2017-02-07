@@ -24,8 +24,8 @@
  
  */
 
-public func fromPointer<T: AnyObject>(pointer: UnsafePointer<Void>) -> T {
-    return Unmanaged.fromOpaque(pointer).takeUnretainedValue()
+public func fromPointer<T: AnyObject>(_ pointer: UnsafeRawPointer) -> T {
+    return Unmanaged<T>.fromOpaque(pointer).takeUnretainedValue()
 }
 
 /**
@@ -46,8 +46,8 @@ public func fromPointer<T: AnyObject>(pointer: UnsafePointer<Void>) -> T {
  
  */
 
-public func fromPointerConsume<T: AnyObject>(pointer: UnsafePointer<Void>) -> T {
-    return Unmanaged.fromOpaque(pointer).takeRetainedValue()
+public func fromPointerConsume<T: AnyObject>(_ pointer: UnsafeRawPointer) -> T {
+    return Unmanaged<T>.fromOpaque(pointer).takeRetainedValue()
 }
 
 /**
@@ -65,14 +65,13 @@ public func fromPointerConsume<T: AnyObject>(pointer: UnsafePointer<Void>) -> T 
  
  */
 
-public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<T> {
-
-    return UnsafeMutablePointer(Unmanaged.passUnretained(object).toOpaque())
+public func toPointer<T: AnyObject>(_ object: T) -> UnsafeRawPointer {
+    return UnsafeRawPointer(Unmanaged.passUnretained(object).toOpaque())
 }
 
 /**
  
- Return an `UnsafeMutablePointer<Void>` to any class object and increases the object's
+ Return an `UnsafeMutablePointer<Void>` to any class object and increase the object's
  reference count by one.
  
  This function retains a reference to the object. If you do not want to retain
@@ -85,6 +84,6 @@ public func toPointer<T: AnyObject>(object: T) -> UnsafeMutablePointer<T> {
  
  */
 
-public func toPointerRetain<T: AnyObject>(object: T) -> UnsafeMutablePointer<Void> {
-    return UnsafeMutablePointer(Unmanaged.passRetained(object).toOpaque())
+public func toPointerRetain<T: AnyObject>(_ object: T) -> UnsafeRawPointer {
+    return UnsafeRawPointer(Unmanaged.passRetained(object).toOpaque())
 }

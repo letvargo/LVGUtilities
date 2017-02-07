@@ -50,13 +50,13 @@ extension CodeStringConvertible {
     /// A 4-character String representation of the value.
     public var codeString: String? {
         
-        let size = sizeof(self.dynamicType)
+        let size = MemoryLayout<Self>.size
         
         guard size == 4 else { fatalError("Only types whose size is exactly 4 bytes can conform to `CodeStringConvertible`") }
         
-        func parseBytes(value: UnsafePointer<Void>) -> [UInt8]? {
+        func parseBytes(_ value: UnsafeRawPointer) -> [UInt8]? {
             
-            let ptr = UnsafePointer<UInt8>(value)
+            let ptr = value.bindMemory(to: UInt8.self, capacity: 4)
             var bytes = [UInt8]()
             
             for index in (0..<size).reversed() {
@@ -76,7 +76,7 @@ extension CodeStringConvertible {
             return bytes
         }
         
-        if  let bytes = parseBytes(value: [self]),
+        if  let bytes = parseBytes([self]),
             let output = NSString(
                 bytes: bytes
                 , length: size
@@ -111,26 +111,19 @@ extension String {
      */
     
     public func propertyCode() -> UInt32? {
-        
-        func pointsToUInt32(points: UnsafePointer<UInt8>) -> UInt32 {
-            return UnsafePointer<UInt32>(points).pointee
-        }
-        
+    
         let codePoints = Array(self.utf8.reversed())
         
-        guard
-            codePoints.count == 4
-            else {
-                return nil
+        guard codePoints.count == 4 else {
+            return nil
         }
         
-        guard
-            codePoints.reduce(true, combine: { $0 && (32..<127).contains($1) })
-            else {
-                return nil
+        guard codePoints.reduce(true, { $0 && (32..<127).contains($1) }) else {
+            return nil
         }
         
-        return pointsToUInt32(points: codePoints)
+        let rawPointer = UnsafeRawPointer(codePoints)
+        return rawPointer.load(as: UInt32.self)
     }
     
     /**
@@ -148,8 +141,9 @@ extension String {
     
     public func statusCode() -> OSStatus? {
         
-        func pointsToInt32(points: UnsafePointer<UInt8>) -> Int32 {
-            return UnsafePointer<Int32>(points).pointee
+        func pointsToInt32(_ points: UnsafePointer<UInt8>) -> Int32 {
+            return UnsafeRawPointer(points).load(as: Int32.self)
+//            return UnsafePointer<Int32>(points).pointee
         }
         
         let codePoints = Array(self.utf8.reversed())
@@ -161,11 +155,11 @@ extension String {
         }
         
         guard
-            codePoints.reduce(true, combine: { $0 && (32..<127).contains($1) })
+            codePoints.reduce(true, { $0 && (32..<127).contains($1) })
             else {
                 return nil
         }
         
-        return pointsToInt32(points: codePoints)
+        return pointsToInt32(codePoints)
     }
 }

@@ -131,12 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E24C081CC8F87200373EFF /* Build configuration list for PBXNativeTarget "Tests-OSX" */;
 			buildPhases = (
-				2D1F99F03BBD3E686E8B4E94 /* 📦 Check Pods Manifest.lock */,
+				2D1F99F03BBD3E686E8B4E94 /* [CP] Check Pods Manifest.lock */,
 				57E24BFE1CC8F87200373EFF /* Sources */,
 				57E24BFF1CC8F87200373EFF /* Frameworks */,
 				57E24C001CC8F87200373EFF /* Resources */,
-				034BB6224E902CB004AC5FD3 /* 📦 Embed Pods Frameworks */,
-				3B41FDDB4C808B4BFDC701EC /* 📦 Copy Pods Resources */,
+				034BB6224E902CB004AC5FD3 /* [CP] Embed Pods Frameworks */,
+				3B41FDDB4C808B4BFDC701EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,12 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E24C171CC8F93900373EFF /* Build configuration list for PBXNativeTarget "Tests-iOS" */;
 			buildPhases = (
-				1370C0E1455E4B7A3BB1A506 /* 📦 Check Pods Manifest.lock */,
+				1370C0E1455E4B7A3BB1A506 /* [CP] Check Pods Manifest.lock */,
 				57E24C0E1CC8F93900373EFF /* Sources */,
 				57E24C0F1CC8F93900373EFF /* Frameworks */,
 				57E24C101CC8F93900373EFF /* Resources */,
-				2A730DA77BFAC2932858BB63 /* 📦 Embed Pods Frameworks */,
-				A2BEF6AF1EB491075210C16A /* 📦 Copy Pods Resources */,
+				2A730DA77BFAC2932858BB63 /* [CP] Embed Pods Frameworks */,
+				A2BEF6AF1EB491075210C16A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,9 +178,11 @@
 				TargetAttributes = {
 					57E24C011CC8F87200373EFF = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 					57E24C111CC8F93900373EFF = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -220,14 +222,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		034BB6224E902CB004AC5FD3 /* 📦 Embed Pods Frameworks */ = {
+		034BB6224E902CB004AC5FD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,29 +237,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1370C0E1455E4B7A3BB1A506 /* 📦 Check Pods Manifest.lock */ = {
+		1370C0E1455E4B7A3BB1A506 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2A730DA77BFAC2932858BB63 /* 📦 Embed Pods Frameworks */ = {
+		2A730DA77BFAC2932858BB63 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,29 +267,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-iOS/Pods-Tests-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D1F99F03BBD3E686E8B4E94 /* 📦 Check Pods Manifest.lock */ = {
+		2D1F99F03BBD3E686E8B4E94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3B41FDDB4C808B4BFDC701EC /* 📦 Copy Pods Resources */ = {
+		3B41FDDB4C808B4BFDC701EC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,14 +297,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-OSX/Pods-Tests-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2BEF6AF1EB491075210C16A /* 📦 Copy Pods Resources */ = {
+		A2BEF6AF1EB491075210C16A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +438,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -480,6 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.letvargo.Tests-OSX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -531,6 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -574,6 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.letvargo.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
