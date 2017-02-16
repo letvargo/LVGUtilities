@@ -13,4 +13,4 @@ script:
 - open -b com.apple.iphonesimulator
 - sleep 10
 - set -o pipefail && xcodebuild test -workspace Tests/Tests.xcworkspace -scheme Tests-iOS -destination 'platform=iOS Simulator,id=1FD54EA7-5A25-4D6F-8599-D6F7687DA4EE,OS=10.2' 
-- set -o pipefail && xcodebuild test -workspace Tests/Tests.xcworkspace -scheme Tests-OXS -sdk macosx | xcpretty
+- set -o pipefail && xcodebuild test -workspace Tests/Tests.xcworkspace -scheme Tests-OSX -sdk macosx | xcpretty
